@@ -1,9 +1,6 @@
 # 📦 Warehouse Object Detection with YOLOv8
 
-## 🧠 Deep Learning Final Project 
-
 This project focuses on building an intelligent object detection system tailored for warehouse environments. It uses deep learning models to identify logistical elements like **pallets**, **stillage racks**, and **small load carriers** in real-time via camera surveillance.
-
 
 ## 🧰 Project Overview
 
@@ -36,16 +33,17 @@ Modern warehouses need constant monitoring of objects to ensure efficiency and s
 
 ## 🧠 Models Used
 
-| Model       | Type                  | Strength                      |
-|-------------|-----------------------|-------------------------------|
-| YOLOv8      | One-stage detector     | Real-time performance         |
-| Faster R-CNN| Two-stage detector     | Precision (low in our case)   |
+| Model        | Type               | Strength                    |
+| ------------ | ------------------ | --------------------------- |
+| YOLOv8       | One-stage detector | Real-time performance       |
+| Faster R-CNN | Two-stage detector | Precision (low in our case) |
 
 ---
 
 ## ⚙️ Training Setup
 
 - **YOLOv8**:
+
   - Epochs: 25
   - Batch size: 10
   - Image size: 416x416
@@ -62,10 +60,10 @@ Modern warehouses need constant monitoring of objects to ensure efficiency and s
 
 ## 📈 Evaluation Results
 
-| Model       | mAP@0.5 | Precision | Recall |
-|-------------|---------|-----------|--------|
-| YOLOv8      | 0.62    | 0.71      | 0.55   |
-| Faster R-CNN| 0.02    | 0.30      | 0.20   |
+| Model        | mAP@0.5 | Precision | Recall |
+| ------------ | ------- | --------- | ------ |
+| YOLOv8       | 0.62    | 0.71      | 0.55   |
+| Faster R-CNN | 0.02    | 0.30      | 0.20   |
 
 📌 YOLOv8 is the final selected model due to its superior accuracy, speed, and deployment ease.
 
@@ -88,7 +86,6 @@ Modern warehouses need constant monitoring of objects to ensure efficiency and s
 - Ultralytics YOLOv8
 - Albumentations
 - Google Colab Pro+ (Training Environment)
-
 
 ## 📚 References
 
