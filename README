@@ -4,6 +4,7 @@
 
 This project focuses on building an intelligent object detection system tailored for warehouse environments. It uses deep learning models to identify logistical elements like **pallets**, **stillage racks**, and **small load carriers** in real-time via camera surveillance.
 
+
 ## 🧰 Project Overview
 
 Modern warehouses need constant monitoring of objects to ensure efficiency and safety. Manual monitoring is error-prone and inefficient. We propose an AI-powered surveillance system capable of real-time object detection using computer vision models like **YOLOv8** and **Faster R-CNN**.
