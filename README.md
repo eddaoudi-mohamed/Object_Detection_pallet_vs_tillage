@@ -1,6 +1,6 @@
 # 📦 Warehouse Object Detection with YOLOv8
 
-## 🧠 Deep Learning Final Project - License d’Excellence en IA (2025–2026)
+## 🧠 Deep Learning Final Project 
 
 This project focuses on building an intelligent object detection system tailored for warehouse environments. It uses deep learning models to identify logistical elements like **pallets**, **stillage racks**, and **small load carriers** in real-time via camera surveillance.
 
