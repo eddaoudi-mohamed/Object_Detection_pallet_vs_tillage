@@ -1,4 +1,4 @@
-# 📦 Warehouse Object Detection with YOLOv8
+# Warehouse Object Detection with YOLOv8
 
 This project focuses on building an intelligent object detection system tailored for warehouse environments. It uses deep learning models to identify logistical elements like **pallets**, **stillage racks**, and **small load carriers** in real-time via camera surveillance.
 
